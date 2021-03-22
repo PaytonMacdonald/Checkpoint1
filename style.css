@@ -129,14 +129,3 @@ h1, h2 ,h3 ,h4 ,h5 ,h6{
         font-size: 16px
     }
 }
-
-
-.spinner{
-    width: 100%;
-    -webkit-animation:spin 3s linear infinite;
-    -moz-animation:spin 3s linear infinite;
-    animation:spin 3s linear infinite;
-}
-@-moz-keyframes spin { 50% { -moz-transform: rotateY(90deg); } }
-@-webkit-keyframes spin { 50% { -webkit-transform: rotateY(90deg); } }
-@keyframes spin { 50% { -webkit-transform: rotateY(90deg); transform:rotateY(90deg); } }
